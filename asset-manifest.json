@@ -1,0 +1,15 @@
+{
+  "main.css": "/connected-cells/static/css/main.cb15cd68.chunk.css",
+  "main.js": "/connected-cells/static/js/main.718a63fb.chunk.js",
+  "main.js.map": "/connected-cells/static/js/main.718a63fb.chunk.js.map",
+  "runtime~main.js": "/connected-cells/static/js/runtime~main.853d1b7a.js",
+  "runtime~main.js.map": "/connected-cells/static/js/runtime~main.853d1b7a.js.map",
+  "static/css/2.5f97d0c1.chunk.css": "/connected-cells/static/css/2.5f97d0c1.chunk.css",
+  "static/js/2.e27528d1.chunk.js": "/connected-cells/static/js/2.e27528d1.chunk.js",
+  "static/js/2.e27528d1.chunk.js.map": "/connected-cells/static/js/2.e27528d1.chunk.js.map",
+  "index.html": "/connected-cells/index.html",
+  "precache-manifest.7df7f33660f4cf7d8ef26730bb17e5bc.js": "/connected-cells/precache-manifest.7df7f33660f4cf7d8ef26730bb17e5bc.js",
+  "service-worker.js": "/connected-cells/service-worker.js",
+  "static/css/2.5f97d0c1.chunk.css.map": "/connected-cells/static/css/2.5f97d0c1.chunk.css.map",
+  "static/css/main.cb15cd68.chunk.css.map": "/connected-cells/static/css/main.cb15cd68.chunk.css.map"
+}
