@@ -1,39 +1,44 @@
-# connected-cells
-A Typescript exercise in search algorithm
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Note: PLEASE FORK THIS REPOSITORY** 
+## Available Scripts
 
-Consider a matrix with n rows and m columns, where each cell contains either a 0 or a 1 and any cell containing a 1 is called a filled cell. Two cells are said to be connected if they are adjacent to each other horizontally, vertically, or diagonally; in other words, cell [ j ][ k ] is connected to cells [ j - 1 ][ k - 1 ], [ j - 1 ][ k ], [ j - 1 ][ k + 1 ], [ j ][ k - 1], [ j ][ k + 1 ], [ j + 1][k - 1 ], [ j + 1 ][ k ], and [ j + 1 ][ k + 1 ], provided that the location exists in the matrix for that [ j ][ k ].
+In the project directory, you can run:
 
-If one or more filled cells are also connected, they form a region. Note that each cell in a region is connected to at least one other cell in the region but is not necessarily directly connected to all the other cells in the region.
+### `npm start`
 
-## Task 
-Given an n * m matrix, find and print the number of cells in the largest region in the matrix. Note that there may be more than one region in the matrix.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Requirement
-You *MUST* use Typescript to complete this exercise.
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-## Test Cases
+### `npm test`
 
-    n = 4, m = 4, matrix =
-    1 1 0 0
-	  0 1 1 0
-	  0 0 1 0
-	  1 0 0 0
-    (Answer: 5)
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-    n = 5, m = 5, matrix =
-    1 1 0 0 0
-    0 1 1 0 0
-    0 0 1 0 1
-    1 0 0 0 1
-    0 1 0 1 1
-    (Answer: 5)
+### `npm run build`
 
-## Bonus (optional)
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Build a user interface that showcases the algorithm, it should include:
-* A form to input number of columns and rows
-* An interface to specify the content of the cells (0 or 1)
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-Note: you *MUST* use React to complete this section.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).

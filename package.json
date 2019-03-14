@@ -1,23 +1,33 @@
 {
   "name": "connected-cells",
-  "version": "1.0.0",
-  "description": "A Typescript exercise in search algorithm",
-  "main": "index.js",
-  "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
-	"tsc": "tsc || true"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MoneyLion/connected-cells.git"
-  },
-  "author": "MoneyLion",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MoneyLion/connected-cells/issues"
-  },
-  "homepage": "https://github.com/MoneyLion/connected-cells#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "typescript": "^2.4.2"
+    "@types/jest": "24.0.11",
+    "@types/node": "11.11.3",
+    "@types/react-dom": "16.8.2",
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8",
+    "typescript": "3.3.3333"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/react": "^16.8.8"
   }
 }
