@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/connected-cells/static/js/runtime~main.853d1b7a.js"
   },
   {
-    "revision": "1408f6a0cdb8c485512e",
-    "url": "/connected-cells/static/js/main.718a63fb.chunk.js"
+    "revision": "8ae6642eb1f6fbedd86b",
+    "url": "/connected-cells/static/js/main.78ba7724.chunk.js"
   },
   {
     "revision": "708de394693d2a51fc44",
     "url": "/connected-cells/static/js/2.e27528d1.chunk.js"
   },
   {
-    "revision": "1408f6a0cdb8c485512e",
+    "revision": "8ae6642eb1f6fbedd86b",
     "url": "/connected-cells/static/css/main.cb15cd68.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/connected-cells/static/css/2.5f97d0c1.chunk.css"
   },
   {
-    "revision": "5a04e3ee540db64a9c34352b31dd49c5",
+    "revision": "cf583d9c13cfe58a0ae2522169768395",
     "url": "/connected-cells/index.html"
   }
 ];
