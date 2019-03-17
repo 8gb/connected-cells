@@ -198,7 +198,7 @@ class App extends React.Component<IProps, IState> {
 
     return (
       <div className="App">
-        <code>https://github.com/kakiko/connected-cells</code>
+        <a href="https://github.com/8gb/connected-cells" target="_blank">github</a>
         <br></br>
         <form className="Appo" onSubmit={this.handleSubmit}>
 
